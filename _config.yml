@@ -1,0 +1,36 @@
+markdown: kramdown
+kramdown:
+  toc_levels: "1..2"
+  input: GFM
+baseurl: /All-SANSUIZ
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-github-metadata
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      image: https://www.gravatar.com/avatar/5c60848658ff9b47c42196635fe0449b.jpg
+title: /All-SANSUIZ
+description: blog, wiki, miscellany, et cetera
+url: https://sansuiz.github.io
+repository: sansuiz/All-SANSUIZ
+sitemap:
+  changefreq: daily
+remote_theme: sansuiz/jekyll-theme-palaios
+citation_type: blog
+donation_url: https://sansuiz.github.io/All-SANSUIZ/tip-jar
+author:
+  name: Ryan Baumann
+  first_name: Ryan
+  last_name: Baumann
+  email: ryan.baumann@gmail.com
+  twitter: ryanfb
+twitter:
+  username: ryanfb
+  card: summary
